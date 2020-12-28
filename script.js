@@ -11,6 +11,7 @@ function AddFunc() {
         li_data = document.createTextNode(item);
         if (item.length < 1){
             alert("בלי רשומות ריקות!");
+            return;
         }
     checkbox = document.createElement('input');
     checkbox.classList.add("checkbox")
@@ -42,6 +43,7 @@ function AddFuncEnter(event) {
             li_data = document.createTextNode(item);
             if (item.length < 1){
                 alert("בלי רשומות ריקות!");
+                return;
             }
         checkbox = document.createElement('input');
         checkbox.classList.add("checkbox")
