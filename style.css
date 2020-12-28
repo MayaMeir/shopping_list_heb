@@ -1,0 +1,59 @@
+#myInput{
+    width: 85%;
+    margin-left: 0px;
+}
+body {
+    background-color: #eeb04e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #613b1a;
+    text-align: center;
+    font-size: 40px;
+}
+
+#list {
+    background-color: white; 
+    padding: 10px;  
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+.del_btn{
+    float: left;
+    border: none;
+}
+li{
+    padding: 8px;
+    background-color:#f2f2f2;
+    margin: 8px;
+ 
+}
+#add_btn{
+    margin: 0%;
+    background-color: lightskyblue;
+    border: 2px solid lightskyblue;
+
+}
+.checkbox{
+    /* float: right; */
+    padding: 0px;
+}
+
+#remove_all{
+border: none;
+background-color: white;
+color: lightskyblue;
+text-decoration: underline;
+}
+
+#center{
+text-align: center;
+}
