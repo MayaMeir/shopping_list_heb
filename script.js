@@ -9,6 +9,9 @@ function AddFunc() {
         list = document.querySelector('ul'),
         li = document.createElement('li'),
         li_data = document.createTextNode(item);
+        if (item.length < 1){
+            alert("בלי רשומות ריקות!");
+        }
     checkbox = document.createElement('input');
     checkbox.classList.add("checkbox")
     checkbox.setAttribute('type', 'checkbox');
@@ -22,6 +25,7 @@ function AddFunc() {
     delbtn.classList.add('del_btn');
     li.appendChild(delbtn);
     document.getElementById("myInput").value='';
+    
 
     delbtn.onclick = function () {
         li.remove();
@@ -36,6 +40,9 @@ function AddFuncEnter(event) {
             list = document.querySelector('ul'),
             li = document.createElement('li'),
             li_data = document.createTextNode(item);
+            if (item.length < 1){
+                alert("בלי רשומות ריקות!");
+            }
         checkbox = document.createElement('input');
         checkbox.classList.add("checkbox")
         checkbox.setAttribute('type', 'checkbox');
