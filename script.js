@@ -21,6 +21,7 @@ function AddFunc() {
     delbtn.appendChild(delbtn_data);
     delbtn.classList.add('del_btn');
     li.appendChild(delbtn);
+    document.getElementById("myInput").value='';
 
     delbtn.onclick = function () {
         li.remove();
@@ -47,6 +48,7 @@ function AddFuncEnter(event) {
         delbtn.appendChild(delbtn_data);
         delbtn.classList.add('del_btn');
         li.appendChild(delbtn);
+        document.getElementById("myInput").value='';
 
         delbtn.onclick = function () {
             li.remove();
